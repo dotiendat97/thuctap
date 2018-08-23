@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <html xmlns:php="http://php.net/xsl" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:version="1.0">
 	<body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 		<xsl:for-each select="beers/beer">
